@@ -6,7 +6,7 @@ import axios from "axios";
 const API_URL = "https://todo-qnbf.onrender.com/api/tasks";
 
 // Allow credentials in requests
-axios.defaults.withCredentials = true;
+// axios.defaults.withCredentials = true;
 
 // Add icon
 const AddIcon = () => (
