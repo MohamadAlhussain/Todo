@@ -1,0 +1,19 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Full-stack Todo application",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "start-backend": "cd backend && npm start",
+    "install-frontend": "cd frontend && npm install",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "todo",
+    "react",
+    "node",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 // API endpoint for tasks
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://todo-qnbf.onrender.com/api/tasks";
 
 // Allow credentials in requests
 axios.defaults.withCredentials = true;
