@@ -4,6 +4,13 @@
 
 A Full-stack Todo application built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring a beautiful UI with Tailwind CSS.
 
+## 🌐 Live Demo
+
+**[View Live Application](https://todo-ten-lemon-71.vercel.app/)**
+
+**Frontend**: [https://todo-ten-lemon-71.vercel.app/](https://todo-ten-lemon-71.vercel.app/)  
+ **Backend API**: [https://todo-qnbf.onrender.com](https://todo-qnbf.onrender.com)
+
 ## Features
 
 - **Modern UI/UX** - Beautiful design with Tailwind CSS
@@ -62,6 +69,10 @@ TO-Do-App/
 ```
 
 ## Getting Started
+
+### 🌐 Try the Live App
+
+**[Click here to use the live application](https://todo-ten-lemon-71.vercel.app/)**
 
 ### Prerequisites
 
@@ -169,6 +180,14 @@ Content-Type: application/json
 - Best practices for managing environment variables and secure configuration
 - The importance of iterative UI/UX design and user feedback for a polished product
 - How to clean up and prepare a project for production and open source release
+
+## Deployment
+
+This application is deployed using:
+
+- **Frontend**: [Vercel](https://vercel.com) - Fast, reliable hosting for React applications
+- **Backend**: [Render](https://render.com) - Cloud platform for web services
+- **Database**: [MongoDB Atlas](https://www.mongodb.com/atlas) - Cloud database service
 
 ---
 
