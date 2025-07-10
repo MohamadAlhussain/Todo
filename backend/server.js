@@ -8,16 +8,12 @@ import taskRoutes from "./routes/taskRoutes.js";
 dotenv.config();
 const app = express();
 
-// CORS for frontend
+// CORS for frontend - simplified
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://todo-git-main-herralhussaingmailcoms-projects.vercel.app",
-      "*",
-    ],
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
+    credentials: false,
   })
 );
 
